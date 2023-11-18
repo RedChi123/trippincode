@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Are you human?</title>
+    <style>
+        .card {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f8f9fa;
+        }
+        .card2 {
+            width: 100%;
+            max-width: 500px;
+            padding: 2rem;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+        .btn {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1rem;
+        }
+        .button1, .button2 {
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            color: #fff;
+            border-radius: 5px;
+        }
+        .button1 {
+            background-color: #1b7bbc;
+        }
+        .button2 {
+            background-color: #8f8f8f;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card2">
+            <form class="form">
+                <img src="https://images.ctfassets.net/ub3bwfd53mwy/5WFv6lEUb1e6kWeP06CLXr/acd328417f24786af98b1750d90813de/4_Image.jpg?w=750" alt="profile image">
+                <p id="heading" style="font-weight: bold;">Are you human?
+                </p>
+                <div class="btn">
+                    <a href="https://i.redd.it/hq5cbspd5n071.jpg" class="button1" style="font-size: 1em; font-weight: bold;">Yes</a>
+                    <a href="https://www.youtube.com/watch?v=D4WO0mirjlQ" class="button2" style="font-size: 1em; font-weight: bold;">No</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
